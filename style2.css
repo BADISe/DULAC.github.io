@@ -1,0 +1,184 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  padding: 3rem 10rem;
+  justify-content: space-between;
+}
+
+.flotte img {
+
+  width: 100%;
+  position: absolute;
+  margin-bottom: 35px
+  height: 500vh;
+  object-fit: cover;
+  z-index: -100;
+}
+
+
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+}
+
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */
+}
+
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+       /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #DAA520;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
+
+
+.menu {
+    display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+         /* Ajout de la couleur d'arrière-plan */
+    justify-content: center     /* Alignements des liens dans le menu */
+}
+
+.menu a:hover {
+  background-color: #DAA520;
+  color: #F5FFFA;
+  border-color: #ffe843;
+}
+
+
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+       /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #DAA520;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+
+    transition: all 1s ;          /* Ajout des effets de transition */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  height: 100vh;
+}
+.container img {
+  width: 100%;
+  position: absolute;
+  height: 110vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.main-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  font-size: 6rem;
+  transform: translate(-50%, -30%);
+}
+
+.decor1 {
+    transform: rotate(360deg);
+   
+    }
+
+.content {
+  width: 100%;
+  background: rgb(24, 24, 24);
+  min-height: 100vh;
+  z-index: 2;
+  position: absolute;
+  }
+
+
+
+.video {
+  text-align: center;width:490px;
+margin-left:auto;
+  margin-right:auto;
+  margin-bottom:35px;
+  padding-top: 50px;
+}
+
+
+
+
+.content-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.text {
+  padding: 2rem 20rem;
+  font-size: 1.1rem;
+}
+
+
+nav .buttons .register{
+  border-radius: 200px;
+  background-color: #DAA520;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
